@@ -2,14 +2,26 @@
   "name": "pagepipe",
   "version": "1.0.0",
   "description": "Brings the power of pipes to the web",
+  "author": {
+    "name": "Doug Martin",
+    "email": "doug@dougmart.in",
+    "web": "http://dougmart.in"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "homepage": "http://dougmart.in/projects/pagepipe",
+  "keywords": ["command-line", "pipes"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougmartin/pagepipe.git"
+  },
+  "bugs": "https://github.com/dougmartin/pagepipe/issues",
   "bin": {
     "pagepipe": "./bin/pagepipe.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Doug Martin",
-  "license": "MIT",
   "dependencies": {
     "commander": "^2.6.0",
     "express": "^4.11.2",
