@@ -1,0 +1,3 @@
+@echo off
+REM For local testing on Windows...
+@node %0\..\bin\pagepipe.js %*
