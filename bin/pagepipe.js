@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var app, auth, basicAuth, clientCount, dateformat, express, favicon, formatLine, homepage, http, lines, name, options, pass, pipeClosed, server, split, startLineIndex, useAuth, _ref, _ref1;
 
 options = require('commander');
